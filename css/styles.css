@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/* CSS for SUSHIC.AT :3c */
+
+/*fonts!!*/
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0%;
+    padding: 0%;
+    background-color: #000;
+    font-weight: 200;
+    font-size: 1em;
+    padding: 15px;
+}
+
+/*background image for website homepage - image credits, me baybeeee*/
+body {
+    background-image: url("../images/river.JPG");
+    background-size: 100% 100%;
+    background-position: center;
+    height: 720px; /*this scale is 1.5x the res of the original image, it keeps scaling perfect*/
+  }
+
+/*text box to hold main content*/
+#wrapper {
+    background-color: aliceblue;
+    opacity: 90%;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*align header to center*/
+header {
+    text-align: center;
+}
+
+/*align footer to center*/
+footer {
+    text-align: center;
+}
+
+/*styling for links*/
+main a:link {
+    color: aqua;
+    text-decoration: none;
+}
+main a:visited {
+    color: cadetblue;
+}
+main a:hover {
+    color: aquamarine;
+    text-decoration: underline;
+}
